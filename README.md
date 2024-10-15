@@ -18,8 +18,6 @@ This app allows users to easily browse, add, and manage delicious recipes. It is
 
 ## Installation
 
-## Installation
-
 1. Clone the repository:
    ```bash
    git clone https://github.com/emansajjad/IP-Flutter-Development24_Task4-5.git
