@@ -26,7 +26,7 @@ class RecipeCard extends StatelessWidget {
                     const BorderRadius.vertical(top: Radius.circular(15)),
                 image: DecorationImage(
                   image: AssetImage(recipe.imageUrl),
-                  fit: BoxFit.cover, // Ensures the image covers the container
+                  fit: BoxFit.cover, //  image covers the container
                 ),
               ),
             ),
@@ -41,10 +41,10 @@ class RecipeCard extends StatelessWidget {
                   style: const TextStyle(
                     fontSize: 22,
                     fontWeight: FontWeight.bold,
-                    color: Colors.black, // Changed to black
+                    color: Colors.black, //  black
                   ),
                 ),
-                const SizedBox(height: 8), // Increased spacing
+                const SizedBox(height: 8), //  spacing
                 Text(
                   '${recipe.ingredients.length} Ingredients',
                   style: TextStyle(
